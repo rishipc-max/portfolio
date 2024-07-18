@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "@react-three/drei": "^9.93.0",
     "@react-three/fiber": "^8.15.13",
