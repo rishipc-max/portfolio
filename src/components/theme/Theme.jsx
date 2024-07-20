@@ -21,4 +21,8 @@ const Theme = () => {
   );
 }
 
+<<<<<<< HEAD
 export default Theme;
+=======
+export default Theme;
+>>>>>>> d796f9805415124c57410d33fa10de590d0e442e
