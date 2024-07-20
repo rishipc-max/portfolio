@@ -1,34 +1,54 @@
 import React from "react";
-import "./footer.css"; // Assuming you have a CSS file for styling
+import "./footer.css";
 import Headersocials from "../home/Headersocials";
-import Nl from "./Nl";
 
 const Footer = () => {
   return (
-    <section className="footer">
-      <hr className="hr" />
-      <div className="section container footer__container">
-        <div className="footer__contact-me">
-          <h4 className="footer__title1">Contact Me &#128241; </h4>
-          <p className="pp">+91 9664743040</p>
-          <p className="pp">rishiipatel@gmail.com</p>
-        </div>
-        <div className="footer__follow-me" ss>
-          <h4 className="footer__title2">Follow Me &#128151;</h4>
-          <div className="ssss">
-            <Headersocials />
+    <div>
+      <hr />
+      <div className="section-footer container">
+        <div>
+          <h4>Contact Me 📱</h4>
+          <div style={{paddingLeft:0}}>
+          <p>+91 9664743040</p>
+          <p>riship102002@gmail.com</p>
           </div>
+          
         </div>
-        <div className="footer__subscribe-me">
-          <h4 className="footer__title3">
-            Sign Up To My Newsletter <span className="heartene">&#128140;</span>{" "}
+        <div>
+          <h4>Follow Me 💗</h4>
+          
+            <Headersocials />
+          
+        </div>
+        <div>
+          <h4>
+            Sign Up To My Newsletter <span className="heartene">💌</span>{" "}
           </h4>
-          <Nl />
+          
+            <form
+              action="https://gmail.us9.list-manage.com/subscribe/post?u=a1fe6b966f09af6cdf2c16697&amp;id=a18a5a1261&amp;f_id=002c2be1f0"
+              method="POST"
+            >
+              <div style={{paddingLeft:0}} className="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                  className="footer-input-email"
+                />
+                <input type="submit" value="Subscribe" className="footer-input-submit" />
+              </div>
+            </form>
+         
         </div>
       </div>
-
-      <p className="copyrite"> &copy; Rishi Patel</p>
-    </section>
+        <div className="copyright-footer">
+          <span >&copy; Rishi Patel, 2024</span>
+        </div>
+    </div>
   );
 };
 

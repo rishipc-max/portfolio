@@ -15,13 +15,13 @@ const Home = () => {
       <img className='home__img' src={Me} alt="" />
       
       <h1 className='home__name'>Rishi Patel</h1>
-      <span className="home__education">I'm a full stack developer</span>
+      {/* <p className="home__education">I'm a full stack developer</p> */}
       
       <br />
       
      
       <Headersocials/>
-      <a href="#contact" className="btn">Hire Me</a>
+      <a  style={{marginTop:'16px'}} href="#contact" className="btn">Hire Me</a>
       
     
       <Scrolldown/>

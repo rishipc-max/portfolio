@@ -3,9 +3,6 @@ import "./portfolio.css";
 import Menu from './Menu';
 import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
-
-
-
 const Portfolio = () => {
  
  const [items,setItems] = useState(Menu);
@@ -36,13 +33,10 @@ const Portfolio = () => {
       <div className="work__container grid">
              
         {   items.map((elem)=> {
-            const{ id, image, title, category} = elem;
+            const{ image, title, category} = elem;
             return (
-              <AnimatedOnScroll
-              animationIn="fadeInUp"
-              // animationOut="fadeInOut"
-              >
-              <div className="work__card" key={id}>
+             
+              <div className="work__card" key={elem.id}>
                 <div className="work__thumbnail">
                   <img src={image} alt="" className="work__img" />
                   <div className="work__mask"></div>
@@ -53,11 +47,8 @@ const Portfolio = () => {
                 <a href="/" className="work__button">
                   <i className="icon-link work__button-icon"></i>
                 </a>
-                <a href="/" className="more__detail">
-                  <i className="icon-link work__button-icon"></i>
-                </a>
               </div>
-              </AnimatedOnScroll>
+           
             )
           })
         }

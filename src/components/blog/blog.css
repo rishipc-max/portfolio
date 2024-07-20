@@ -1,4 +1,4 @@
-.blog__container{
+/* .blog__container{
     column-gap: 1.875rem;
     grid-template-columns: repeat(3, 1fr);
     
@@ -41,7 +41,6 @@
 }
 
 .blog__details {
-/* background-color: var(--container-color); */
 background-color: hsl(0, 0%, 100%);
 padding: 1.25rem;
 }
@@ -77,4 +76,4 @@ font-weight: var(--font-bold);
     .blog__container {
     grid-template-columns: 1fr;
     }
-}
+} */

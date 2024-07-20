@@ -7,41 +7,6 @@ import { AnimatedOnScroll } from "react-animated-css-onscroll";
 const AboutBox = () => {
    
   return (
-    // <div className="about__boxes grid">
-    //     <div className="about__box">
-    //         <i className='about__icon icon-fire'></i>
-    //         <div>
-    //             <h3 className="about__title">15</h3>
-    //             <span className="about__subtitle">Projects Completed</span>
-    //         </div>
-    //     </div>
-    //     <div className="about__box">
-    //         <i className='about__icon icon-cup'></i>
-    //         <div>
-    //             <h3 className="about__title">322</h3>
-    //             <span className="about__subtitle">Cup of Coffee</span>
-    //         </div>
-    //     </div>
-
-    //     <div className="about__box">
-    //         <i className='about__icon icon-people'></i>
-    //         <div>
-    //             <h3 className="about__title">13</h3>
-    //             <span className="about__subtitle">Lorem Ipsum</span>
-    //         </div>
-    //     </div>
-
-    //     <div className="about__box">
-    //         <i className='about__icon icon-badge'></i>
-    //         <div>
-    //             <h3 className="about__title">3</h3>
-    //             <span className="about__subtitle">Nominees Winner</span>
-    //         </div>
-    //     </div> 
-
-        
-    // </div>
-    
     <div className="about__boxes grid" >
 
       <AnimatedOnScroll
@@ -50,8 +15,8 @@ const AboutBox = () => {
       >       
         <div className="about__box">
            <i className="skill__icon fa-brands fa-html5" style={{color: "#ff6600"}}></i>        
-         <div class="stack-details">
-           <span class="title">HTML 5</span>
+         <div className="stack-details">
+           <span className="title">HTML 5</span>
            <span>Structure and Content</span>
          </div>
         </div>
@@ -62,9 +27,9 @@ const AboutBox = () => {
         // animationOut="fadeOut"
       >  
         <div className="about__box">
-          <i class="skill__icon fa-brands fa-css3-alt " style={{color: "#0008fa"}}></i>        
-          <div class="stack-details">
-            <span class="title">CSS 3</span>
+          <i className="skill__icon fa-brands fa-css3-alt " style={{color: "#0008fa"}}></i>        
+          <div className="stack-details">
+            <span className="title">CSS 3</span>
             <span>Visual Styling</span>
           </div>
         </div>
@@ -75,9 +40,9 @@ const AboutBox = () => {
         // animationOut="fadeInOut"
       >
         <div className="about__box">
-         <i class="skill__icon fa-brands fa-js" style={{color: "#FFD43B"}} ></i>        
-         <div class="stack-details">
-           <span class="title">JavaScript</span>
+         <i className="skill__icon fa-brands fa-js" style={{color: "#FFD43B"}} ></i>        
+         <div className="stack-details">
+           <span className="title">JavaScript</span>
            <span>Functionality</span>
           </div>
         </div>
@@ -89,8 +54,8 @@ const AboutBox = () => {
       >
        <div className="about__box">
          <i className="skill__icon fa-brands fa-github"></i>        
-         <div class="stack-details">
-           <span class="title">GitHub</span>
+         <div className="stack-details">
+           <span className="title">GitHub</span>
            <span>Version Control</span>
          </div>
        </div>
@@ -102,8 +67,8 @@ const AboutBox = () => {
       >
         <div className="about__box secondDiv">
          <i className="skill__icon fa-brands fa-react" style={{color: "#a3d7ff"}} ></i>
-         <div class="stack-details">
-           <span class="title">React.Js</span>
+         <div className="stack-details">
+           <span className="title">React.Js</span>
            <span>Dynamic Development</span>
          </div>
         </div>
@@ -114,10 +79,10 @@ const AboutBox = () => {
         // animationOut="fadeInOut"
       >
         <div className="about__box secondDiv">
-          <i class="skill__icon fa-brands fa-node-js" style={{color: "#36ab61"}}></i>        
-          <div class="stack-details">
-           <span class="title">Node.js</span>
-           <span>Version Control</span>
+          <i className="skill__icon fa-brands fa-node-js" style={{color: "#36ab61"}}></i>        
+          <div className="stack-details">
+           <span className="title">Node.js</span>
+           <span>server-side proxy</span>
           </div>
         </div>
       </AnimatedOnScroll>
@@ -128,10 +93,13 @@ const AboutBox = () => {
       >  
         <div className="about__box secondDiv">
         
-         <i class="skill__icon fa-brands fa-js" style={{color: "#FFD43B"}} ></i>        
-         <div class="stack-details">
-           <span class="title">GitHub</span>
-           <span>Version Control</span>
+          <div>
+        <img className='skill__icon' src='https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png' alt='Redux Logo' width='55'></img>
+        </div>
+              
+         <div className="stack-details">
+           <span className="title">Redux</span>
+           <span>State Management</span>
           </div>
         </div>
       </AnimatedOnScroll> 
@@ -141,10 +109,10 @@ const AboutBox = () => {
         // animationOut="fadeInOut"
       >
         <div className="about__box secondDiv">
-          <i class="skill__icon fa-brands fa-js" style={{color: "#FFD43B"}} ></i>        
-          <div class="stack-details">
-           <span class="title">GitHub</span>
-           <span>Version Control</span>
+        <img className='skill__icon' src='https://www.svgrepo.com/show/331488/mongodb.svg' alt='Redux Logo' width='55'></img>
+          <div className="stack-details">
+           <span className="title">MongoDB</span>
+           <span>Database</span>
           </div>
         </div>
       </AnimatedOnScroll>

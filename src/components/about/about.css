@@ -72,7 +72,7 @@
   display: block;
 }
 .bar__js {
-  width: 50%;
+  width: 60%;
   background-color: rgb(255, 209, 92);
 }
 .bar__react {
@@ -80,7 +80,7 @@
   background-color: rgb(255, 76, 96);
 }
 .bar__node {
-  width: 60%;
+  width: 50%;
   background-color: rgb(108, 108, 299);
 }
 

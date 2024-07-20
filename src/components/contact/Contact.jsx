@@ -54,11 +54,12 @@ const Contact = () => {
             <textarea
               id="message"
               name="message"
-              className="contact__form-input"
+              className="contact__form-input special-case"
               cols="30"
               rows="10"
               placeholder="Write your message"
               required
+              style={{paddingTop:'1.2rem'}}
             ></textarea>
           </div>
           <input type="submit" value="Send Message" className="btn" />

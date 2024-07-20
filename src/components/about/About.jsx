@@ -44,7 +44,7 @@ const About = () => {
               //  animationOut="fadeInOut"
             >
               <a
-                href="https://drive.usercontent.google.com/u/0/uc?id=1mtwtz30xcY3XnH--deTkuEkyX3BFrBMP&export=download"
+                href="https://drive.google.com/file/d/1ihjh346wknMhnDHz6NLgS3KQ7xNDj-es/view?usp=sharing"
                 className="btn"
               >
                 Download Resume
@@ -59,7 +59,7 @@ const About = () => {
               <div className="skills__data">
                 <div className="skills__titles">
                   <h3 className="skills__name">Javascript</h3>
-                  <span className="skills__number ">50%</span>
+                  <span className="skills__number ">60%</span>
                 </div>
                 <div className="skills__bar">
                   <span className="skills__percentage bar__js"></span>
@@ -77,7 +77,7 @@ const About = () => {
               <div className="skills__data">
                 <div className="skills__titles">
                   <h3 className="skills__name">node.js</h3>
-                  <span className="skills__number">60%</span>
+                  <span className="skills__number">50%</span>
                 </div>
                 <div className="skills__bar">
                   <span className="skills__percentage bar__node"></span>

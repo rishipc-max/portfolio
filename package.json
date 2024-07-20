@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@coreui/icons": "^3.0.1",
     "@mailchimp/mailchimp_marketing": "^3.0.80",
+    "@mui/icons-material": "^5.16.4",
+    "@mui/material": "^5.16.4",
     "@react-three/drei": "^9.93.0",
     "@react-three/fiber": "^8.15.13",
     "@testing-library/jest-dom": "^5.17.0",
