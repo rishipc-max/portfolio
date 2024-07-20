@@ -27,11 +27,13 @@ const Footer = () => {
           </h4>
           
             <form
+            className="main-form"
               action="https://gmail.us9.list-manage.com/subscribe/post?u=a1fe6b966f09af6cdf2c16697&amp;id=a18a5a1261&amp;f_id=002c2be1f0"
               method="POST"
             >
               <div style={{paddingLeft:0}} className="form-group">
                 <input
+                  style={{width:'90%'}}
                   type="email"
                   id="email"
                   name="email"

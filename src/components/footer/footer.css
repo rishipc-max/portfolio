@@ -19,19 +19,19 @@
     .section-footer p {
       color: #a0a0a0;
     }
-    
+    .main-form{
+      width: 300px;
+    }
     .form-group {
       display: flex;
     }
   
     .footer-input-email {
       flex: 1;
-      padding: 10px;
+      padding-left: 10px;
       border: 1px solid #ddd;
-      border-radius: 4px 0 0 4px;
-      margin-right: -1px; /* To avoid double border between the input and button */
-      /* width: 180px; */
-      justify-content: center;
+      border-radius: 1px 0 0 1px;
+      margin-right: -1px;
     }
     
     .footer-input-submit {
