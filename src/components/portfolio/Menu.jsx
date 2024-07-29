@@ -1,16 +1,17 @@
-import Work1 from "../../assets/swpf.jpg";
+import Work5 from "../../assets/swpf.jpg";
 import Work2 from "../../assets/fda.png";
+import Work1 from "../../assets/m-app-pf.png";
 import Work3 from "../../assets/gamepic.png";
 import Work4 from "../../assets/nkf.png";
-import Work5 from "../../assets/work-5.svg";
 import Work6 from "../../assets/work-6.svg";
+
 
 const Menu = [
     {
       id: 1,
       image: Work1,
-      title: "Sports Website",
-      category: "Creative",
+      title: "Meeting Application",
+      category: "MERN",
     },
     {
       id: 2,
@@ -33,7 +34,7 @@ const Menu = [
     {
       id: 5,
       image: Work5,
-      title: "iMac Mockup Design",
+      title: "Sports Website",
       category: "Creative",
     },
     {
