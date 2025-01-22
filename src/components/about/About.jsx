@@ -44,7 +44,7 @@ const About = () => {
               //  animationOut="fadeInOut"
             >
               <a
-                href="https://drive.google.com/file/d/1ihjh346wknMhnDHz6NLgS3KQ7xNDj-es/view?usp=sharing"
+                href="https://drive.google.com/file/d/1QHXEzvlUDYAU0oid11UJrqM3MaujizkM/view?usp=sharing"
                 className="btn"
               >
                 Download Resume
